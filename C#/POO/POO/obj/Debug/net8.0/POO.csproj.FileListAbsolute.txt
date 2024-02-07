@@ -1,0 +1,14 @@
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\bin\Debug\net8.0\POO.exe
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\bin\Debug\net8.0\POO.deps.json
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\bin\Debug\net8.0\POO.runtimeconfig.json
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\bin\Debug\net8.0\POO.dll
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\bin\Debug\net8.0\POO.pdb
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\obj\Debug\net8.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\obj\Debug\net8.0\POO.AssemblyInfoInputs.cache
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\obj\Debug\net8.0\POO.AssemblyInfo.cs
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\obj\Debug\net8.0\POO.csproj.CoreCompileInputs.cache
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\obj\Debug\net8.0\POO.dll
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\obj\Debug\net8.0\refint\POO.dll
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\obj\Debug\net8.0\POO.pdb
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\obj\Debug\net8.0\POO.genruntimeconfig.cache
+C:\Users\raiky.novaes\Desktop\EstudosAlura\C#\POO\POO\obj\Debug\net8.0\ref\POO.dll
