@@ -1,0 +1,3 @@
+Mouse 19.9
+Teclado 39.0
+Monitor 789.0

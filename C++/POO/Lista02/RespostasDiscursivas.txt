@@ -1,0 +1,113 @@
+FEITO POR : Raiky Prezotto Pereira Sahb Novaes
+
+QUESTÃO NÚMERO 1 :
+
+Primeiro grupo:
+
+A. four - Pode ser usado. É um nome válido para variáveis, classes, atributos e métodos.
+B. for - Não pode ser usado. "for" é uma palavra-chave reservada em muitas linguagens de programação e não pode ser usada como um identificador.
+C. from - Não pode ser usado. "from" é outra palavra-chave reservada em muitas linguagens de programação e não pode ser usada como um identificador.
+D. 4 - Não pode ser usado. Os identificadores não podem começar com números em muitas linguagens de programação.
+E. FOR - Pode ser usado, mas não é uma prática recomendada usar identificadores em maiúsculas para variáveis, atributos ou métodos. É mais comum usar maiúsculas para nomes de classes.
+
+Segundo grupo:
+
+A. dia&noite - Não pode ser usado. O símbolo "&" geralmente não é permitido em identificadores em muitas linguagens de programação.
+B. diaENoite - Pode ser usado. É um nome válido para variáveis, classes, atributos e métodos.
+C. dia & noite - Não pode ser usado. O espaço em branco não é permitido em identificadores.
+D. dia E noite - Não pode ser usado. O espaço em branco e o "E" maiúsculo não são permitidos em identificadores.
+E. dia_e_noite - Pode ser usado. É um nome válido para variáveis, classes, atributos e métodos.
+
+Terceiro grupo:
+
+A. contador - Pode ser usado. É um nome válido para variáveis, classes, atributos e métodos.
+B. 1contador - Não pode ser usado. Os identificadores não podem começar com números em muitas linguagens de programação.
+C. contador de linhas - Não pode ser usado. Geralmente, espaços em branco e caracteres especiais, como espaços, não são permitidos em identificadores.
+D. Contador - Pode ser usado. É um nome válido para variáveis, classes, atributos e métodos, mas lembre-se de que a maiúscula inicial é diferente de "contador" com letra minúscula.
+E. count - Pode ser usado. É um nome válido para variáveis, classes, atributos e métodos.
+
+
+/----------------------------------------------------------/
+
+
+QUESTÃO NÚMERO 2 :
+
+O número de municípios de um estado do Brasil.
+Tipo de dado: int 
+
+O nome de um estado do Brasil.
+Tipo de dado: string 
+
+A população de um estado do Brasil.
+Tipo de dado: long long int 
+
+A área do Brasil em quilômetros quadrados.
+Tipo de dado: double 
+
+A população total do mundo.
+Tipo de dado: long long int 
+
+O CEP de um endereço no Brasil.
+Tipo de dado: string 
+
+O nome de uma rua em um endereço no Brasil.
+Tipo de dado: string 
+
+A altura de uma pessoa em metros.
+Tipo de dado: float ou double 
+
+O peso de uma pessoa em quilos.
+Tipo de dado: float ou double 
+
+A temperatura corporal de uma pessoa.
+Tipo de dado: float ou double 
+
+O sexo de uma pessoa.
+Tipo de dado: char 
+
+A altura de uma pessoa em milímetros.
+Tipo de dado: int 
+
+
+/----------------------------------------------------------/
+
+QUESTÃO NÚMERO 3 :
+
+
+A. Um valor do tipo boolean pode receber o valor numérico zero.
+Verdadeiro. Em C++, o valor false é representado como zero e o valor true é representado como um valor diferente de zero.
+
+B. Um valor do tipo float pode armazenar valores maiores do que os que podem ser armazenados por um valor do tipo long.
+Falso. O tipo long tem maior capacidade de armazenamento em comparação com o tipo float. Um long pode armazenar inteiros maiores do que um float pode representar com precisão.
+
+C. Podemos ter caracteres cujos valores sejam negativos.
+Verdadeiro. Em C++, o tipo char pode representar valores de -128 a 127 (em um sistema que utiliza codificação ASCII). Portanto, valores negativos são possíveis.
+
+D. O número de bytes ocupados por uma variável do tipo float depende do computador e do sistema operacional sendo usado.
+Verdadeiro. O tamanho de um tipo de dado em C++ pode variar dependendo da plataforma e do compilador. Geralmente, em muitos sistemas, um float é representado com 4 bytes.
+
+E. O tipo char pode ser usado para representar pares de caracteres, uma vez que variáveis desse tipo ocupam dois bytes na memória.
+Falso. Em C++, o tipo char ocupa normalmente 1 byte na memória e é usado para representar um único caractere.
+
+F. Os tipos de dados double e long não são equivalentes, apesar de variáveis desses tipos ocuparem o mesmo espaço na memória.
+Verdadeiro. Embora ambos possam ocupar o mesmo espaço na memória (geralmente 8 bytes), double e long são tipos diferentes. double é um tipo de ponto flutuante que tem maior precisão do que long, que é um tipo inteiro longo. Portanto, eles têm propósitos diferentes e não são equivalentes.
+
+
+/--------------------------------------------------------/
+
+QUESTÃO NÚMERO 7 :
+
+1 => O erro esta na sintaxe do nome da Classe , que não pode haver espaços em branco.
+
+2 => O erro esta na nos tipos de retorno dos métodos 'maior' e 'menor', pois uma função int só pode retornar int e uma função void não pode retornar nada.
+
+3 => O erro está no retorno do método valor, pois um retorno só pode retornar apenas um valor.
+
+4 => O erro está na declaração dos atributos , pois não se pode declarar variáveis com nomes de valores numéricos como 1 , 2 e 3 .
+
+5 => O erro está na no método amplitude , pois não se pode declarar um método dentro de outro;
+
+
+/--------------------------------------------------------/
+
+QUESTÃO NÚMERO  :

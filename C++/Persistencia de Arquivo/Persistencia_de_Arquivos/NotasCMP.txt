@@ -1,0 +1,3 @@
+Rafael 8 9 8.6
+Fulano 9 10 9.6
+Beltrana 10 10 10.0	
