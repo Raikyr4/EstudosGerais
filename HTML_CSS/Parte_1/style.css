@@ -1,0 +1,61 @@
+body {
+}
+
+#banner {
+    width: 100%;
+    
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.traco-centralizado {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+em strong {
+    color: red;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+.beneficios {
+    background: white;
+    padding: 20px; /*essa propriedade faz com que dentro da div se crie uma margem em todos os lados*/
+}
+
+
+ul {
+    /* Quando um elemento é block ele 'ocupa a linha inteira' não permitindo que outro conteúdo ocupe esse espaço
+     * Os elementos são por padrão block
+     * Quando usamos o inline-block fazemos com que o conteúdo ocupe apenas o espaço dele mesmo    
+    */
+    display: inline-block;
+    vertical-align: top;
+    white : 20px;
+    margin-right: 15% ;
+}
+.items {
+    font-style: italic;
+}
+.imagemBeneficios {
+    width: 50%;
+
+}
+
+.map {
+    display: inline-block;
+    box-shadow: 10px 10px 30px black ;  
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia Alura</title>
+    <link rel="stylesheet" href="../Parte_2/reset.css"> <!--depois adicionamos nossos estilos-->
+    <link rel="stylesheet" href="../Parte_2/produtos.css"> 
+    <link rel="stylesheet" href="contato.css"> 
+
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1>
+                <img src="../Parte_2/logo.png" alt="logo da Barbearia">
+            </h1>
+            
+            <nav> <!-- nav é uma tag que tem como objetivo indicar a parte do site onde é possível realizar a navegação de links--> 
+                <ul class="navegacao">
+                    <!-- <a>  uma tag de link pra navegar entre as paginas-->
+                    <li><a href="../Parte_1/index.html">Home</a></li>
+                    <li><a href="">Produtos</a></li>
+                    <li><a href="../Parte_3/contato.html">Contato</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="nome_sobrenome">Nome e Sobrenome</label>
+            <input class="input_padrao" type="text" id="nome_sobrenome" placeholder="Seu nome" required>
+
+            <label for="email">Email</label>
+            <input class="input_padrao" type="email" id="email" placeholder="seuEmail@.com.br" required>
+
+            <label for="telefone">Telefone</label>
+            <input class="input_padrao" type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX" required> 
+
+            <label for="mensagem">Mensagem</label>
+            <textarea class="input_padrao" id="mensagem" cols="60" rows="10"></textarea>
+
+            <!--A tag <fieldset> é usada para agrupar elementos relacionados em um formulário HTML e, muitas vezes, é combinada com a tag <legend> para fornecer uma descrição ou título para o grupo de campos.-->
+            <fieldset>    
+                <legend>Como prefere nosso contato?</legend>
+                    <!--Quando colocamos varios labels com o mesmo name eles começam a fazer parte do mesmo grupo e isso pode ter implicações-->
+                    <label for="radio_email">
+                        <input  type="radio" name="contato" value="email" id="radio_email">
+                        Email
+                    </label>
+
+                    <label for="radio_telefone">
+                        <input  type="radio" name="contato"  id="radio_telefone" value="telefone">
+                        Telefone
+                    </label>
+
+                    <label for="radio_whatsapp">
+                        <input  type="radio" name="contato" id="radio_whatsapp" value="whatsapp">
+                        WhatsApp
+                    </label>
+
+                </fieldset>
+               <fieldset>
+                    <legend>Qual horário você gostaria?</legend>
+                    <select>
+                        <option value="Manhã">Manhã</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noite">Noite</option>
+                    </select>
+               </fieldset>
+  
+                <label class="checkbox_class">
+                    <input type="checkbox">
+                    Gostaria de receber nossas novidades?
+                </label>
+ 
+
+                <input  type="submit" value="Enviar formulário" class="enviar">
+        </form>
+
+        <table>
+            <thead>
+                <tr> <!--linha da tabela-->
+                    <td>Dia</td> <!--coluna da tabela-->
+                    <td>Horario</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Seg</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Ter</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Qua</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <img src="../Parte_2/logo-branco.png" alt="logo da Barbearia">
+        <p>Copyrigth - Barbearia Alura</p>
+    </footer>
+</body>
+</html>

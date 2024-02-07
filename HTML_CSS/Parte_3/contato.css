@@ -1,0 +1,70 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input_padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox_class {
+    margin: 20px 0;
+}
+
+/*Exite uma hierarquia de CSS sobre os marcadores 
+
+    ID > CLASS > TAG
+
+    e se combinarmos marcações no CSS a prioridade/força pode somar 
+
+    se marcamos uma tag com id ela fica mais forte que a marcação da class 
+    e como consequência sobrepõe o estilo
+
+*/
+
+
+.enviar {
+    width: 40% ;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border : none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: red;
+    transform: scale(1.2); /*Muda de tamanho nosso elemento*/
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th {
+    border: 1px solid #000000;
+    padding: 8px 15px; /*mexe com o espaçamento interno dos elementos*/
+}

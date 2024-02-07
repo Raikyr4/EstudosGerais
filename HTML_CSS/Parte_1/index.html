@@ -1,0 +1,57 @@
+<!DOCTYPE html> <!--tag que nos fornece sempre a tecnologia html em sua última versão-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Serve para apontar para o navegador que estamos usando um dicionário que tenha acentos e cedilha, sinais gráficos comuns na língua portuguesa.-->
+
+
+    <!-- Dentro do @media (max-width: 480px) {} É dentro dessa media query que criamos um estilo visual que compreenda telas de até 480px.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Alura</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!--header é o cabeçalho da nossa página a parte de cima abaixo do link do navegado
+        devemos colocar coisas mais importantes nesse local do site-->
+    <header>
+       <h1 class="titulo-principal">Barbearia Alura</h1>
+    </header>
+
+
+    <img id="banner" src="banner.jpg" >
+
+    <div class="principal">
+        <h1 class="traco-centralizado">Sobre a Barbearia Alura</h1>
+        
+            <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+        
+            <p id="missao"><em> Nossa missão é:<strong> "Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
+        
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+    </div>
+
+    <div class="beneficios">    
+        <h3 class="traco-centralizado">Benefícios</h3>
+
+        <ul> <!--lista nao ordenada e lista ordenada seria ol-->
+            <li class="items">Atendimento ao Cliente</li>
+            <li class="items">Espaço Diferenciado</li>
+            <li class="items">Localização</li>
+            <li class="items">Profissionais Qualificados</li>
+        </ul>
+
+        <img class="imagemBeneficios" src="beneficios.jpg" alt="">
+
+        <section class="map">
+            <!--Para incorporar um mapa no nosso site a gente vai no site do google maps e seleciona um endereço e copia o codigo de incorporar mapa
+            Podemos fazer isso para videos tbm 
+            -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15285.587876171117!2d-49.2740054!3d-16.7070333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef12544136db3%3A0x1b20c322bbad1d83!2sGoi%C3%A2nia%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1706201927689!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+</body>
+</html>
+
+
+
